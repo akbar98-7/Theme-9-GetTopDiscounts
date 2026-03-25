@@ -52,7 +52,7 @@ const FooterNewsletter = ({ companyId }: Props) => {
                     <input 
                         type="email" 
                         placeholder="EMAIL ADDRESS" 
-                        className="w-full bg-[#0a0a0a] border border-gray-800 text-white text-xs font-black tracking-widest rounded-2xl py-5 pl-8 pr-20 focus:outline-none focus:border-[#27AE60] transition-all duration-500 placeholder:text-gray-700"
+                        className="w-full bg-[#0a0a0a] border border-gray-800 text-white text-xs font-black tracking-widest rounded-full py-5 pl-8 pr-20 focus:outline-none focus:border-[#27AE60] transition-all duration-500 placeholder:text-gray-700"
                         value={email} 
                         onChange={(e) => setEmail(e.target.value)} 
                         disabled={isLoading}
@@ -61,7 +61,7 @@ const FooterNewsletter = ({ companyId }: Props) => {
                     <button 
                         type="submit" 
                         disabled={isLoading}
-                        className="absolute right-2 top-2 bottom-2 px-6 bg-[#27AE60] text-white rounded-xl font-black text-[10px] uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500 disabled:bg-gray-800"
+                        className="absolute right-2 top-2 bottom-2 px-6 bg-[#27AE60] text-white rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-500 disabled:bg-gray-800"
                     >
                         {isLoading ? (
                             <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />

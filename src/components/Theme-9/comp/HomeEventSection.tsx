@@ -39,7 +39,7 @@ const HomeEventSection = async ({ companyId, mer_slug, mer_slug_type }: Props) =
     if (allOffers?.length === 0) return null;
 
     return (
-        <section className="bg-gray-100 py-24 px-6 overflow-hidden">
+        <section className="bg-[#0F172A] py-24 px-6 overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 
                 {/* Header Section with Scale Effect */}

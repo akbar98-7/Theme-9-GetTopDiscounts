@@ -31,7 +31,7 @@ const Footer = async ({ companyFooterLogo, company_id, socialLinks, blog_title, 
                 {/* Newsletter Hero Section */}
                 <div className="mb-24">
                     <div className="relative p-1 bg-gradient-to-r from-white/5 via-[#27AE60]/20 to-white/5 rounded-[2.5rem]">
-                        <div className="bg-[#2e2d2d] rounded-[2.4rem] p-10 md:p-16 flex flex-col lg:flex-row items-center justify-between gap-12">
+                        <div className="bg-[#2e2d2d] rounded-full p-10 md:p-16 flex flex-col lg:flex-row items-center justify-between gap-12">
                             <div className="max-w-xl text-center lg:text-left">
                                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500 mb-4">
                                     THE INSIDER LIST.

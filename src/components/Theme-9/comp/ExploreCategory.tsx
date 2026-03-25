@@ -24,7 +24,7 @@ const ExploreCategory = async ({ companyId, cat_slug, slug_type }: Props) => {
 
     return (
         /* BG Gray 100 as requested */
-        <section className="bg-gray-100 py-24 px-6">
+        <section className="bg-[#0F172A] py-24 px-6">
             <div className="max-w-7xl mx-auto">
                 
                 {/* Header Area */}
@@ -37,7 +37,7 @@ const ExploreCategory = async ({ companyId, cat_slug, slug_type }: Props) => {
                             </p>
                         </div>
                         
-                        <h2 className="text-5xl md:text-6xl font-black text-slate-900 mb-4 tracking-tight">
+                        <h2 className="text-5xl md:text-6xl font-black text-white mb-4 tracking-tight">
                             {firstHalf ? firstHalf : `Browse by`}{' '}
                             <span className="text-[#2ECC71]">{secondHalf ? secondHalf : `Category`}</span>
                         </h2>

@@ -97,7 +97,7 @@ const OfferCard = async ({ offer, mer_slug_type, mer_slug, type }: Props) => {
     merchantHref={merchantHref}
     domain={domain}
     /* Yahan humne sirf colors ko blue se green kiya hai original prop 'customClass' ke saath */
-    customClass="no-underline w-full bg-[#27AE60] !text-white py-4 rounded-2xl !font-bold flex items-center justify-center gap-3 shadow-md hover:bg-[#219150] hover:shadow-green-200 transition-all duration-300 relative group/btn"
+    customClass="no-underline w-full bg-[#27AE60] !text-white py-4 rounded-full !font-bold flex items-center justify-center gap-3 shadow-md hover:bg-[#219150] hover:shadow-green-200 transition-all duration-300 relative group/btn"
   >
     {product?.coupon_code ? (
       <>

@@ -111,7 +111,7 @@ const EventOfferCard = ({ product, merchantHref, domain, merchant_name, merchant
             merchantHref={merchantHref}
             domain={domain}
             // Add !text-white here
-            customClass="no-underline w-full bg-slate-900 !text-white py-4 rounded-[1.25rem] font-bold text-[11px] uppercase tracking-[0.15em] flex items-center justify-center gap-2 hover:bg-[#2ECC71] transition-all duration-300 shadow-xl shadow-slate-200"
+            customClass="no-underline w-full bg-slate-900 !text-white py-4 rounded-full font-bold text-[11px] uppercase tracking-[0.15em] flex items-center justify-center gap-2 hover:bg-[#2ECC71] transition-all duration-300 shadow-xl shadow-slate-200"
         >
             {/* Span par important text white lagaya taake Link ka default color override ho jaye */}
             <span className="!text-white">Copy Code</span>

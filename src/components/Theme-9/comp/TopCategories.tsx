@@ -36,7 +36,7 @@ const TopCategories = async ({ category }: Props) => {
             </div>
             
             <div className="text-center w-full">
-                <h4 className="text-sm font-black text-slate-800 group-hover:text-[#2ECC71] transition-colors line-clamp-1 mb-2 tracking-tight">
+                <h4 className="text-sm font-black text-white group-hover:text-[#2ECC71] transition-colors line-clamp-1 mb-2 tracking-tight">
                     {category?.name}
                 </h4>
                 

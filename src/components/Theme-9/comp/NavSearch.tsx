@@ -79,7 +79,7 @@ const NavSearch = ({ companyId, mer_slug, slug_type, cat_slug }: Props) => {
   return (
     <div className="relative w-full max-w-lg">
       {/* SEARCH BAR */}
-      <div className="group flex items-center bg-slate-50 rounded-2xl border border-[#E0E0E0] focus-within:bg-white focus-within:border-blue-500 focus-within:ring-4 focus-within:ring-blue-500/10 transition-all duration-300 px-4 py-3">
+      <div className="group flex items-center bg-slate-50 rounded-full border border-[#E0E0E0] focus-within:bg-white focus-within:border-blue-500 focus-within:ring-4 focus-within:ring-blue-500/10 transition-all duration-300 px-4 py-3">
         <FaSearch className="text-slate-400 group-focus-within:text-blue-500 transition-colors mr-3" />
 
         <input
@@ -103,7 +103,7 @@ const NavSearch = ({ companyId, mer_slug, slug_type, cat_slug }: Props) => {
           onClick={() => search && router.push(`/search?query=${search}`)}
           // 1. Inline style hamesha kaam karega chahe Tailwind config kuch bhi ho
           style={{ backgroundColor: '#27AE60' }} 
-          className="text-white px-5 py-2 rounded-xl text-sm font-bold shadow-lg shadow-blue-200 transition-all active:scale-95 hover:opacity-90"
+          className="text-white px-5 py-2 rounded-full text-sm font-bold shadow-lg shadow-blue-200 transition-all active:scale-95 hover:opacity-90"
         >
           Search
         </button>
